@@ -1,10 +1,14 @@
 body {
   font-family: Roboto, system-ui;
+  color: #111212;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
 }
 
 a {
   text-decoration: none;
-  color: #111212;
+  color: inherit;
 }
 
 .logo {
@@ -13,6 +17,12 @@ a {
 
 header {
   margin-bottom: 72px;
+}
+
+.special-text {
+  font-family: Yesteryear, cursive;
+  color: #d476f8;
+  font-size: 1.7em;
 }
 
 .top-header,
@@ -82,8 +92,148 @@ h1 {
   line-height: 54px;
   color: #111212;
   margin-bottom: 64px;
+  font-weight: 400;
 }
 
 section {
   margin-bottom: 56px;
+}
+
+.sort-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+  margin: 0 auto;
+  margin-bottom: 24px;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 48px;
+}
+
+.item img {
+  margin: 0 auto;
+}
+
+.item-footer {
+  padding: 16px;
+  text-align: center;
+}
+
+.item-name {
+  font-size: 16px;
+  line-height: 26px;
+  font-weight: 400;
+}
+
+.item-price {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 16px;
+  color: #828282;
+  letter-spacing: 2px;
+}
+
+.show-more {
+  display: block;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  margin: 0 auto;
+}
+
+footer {
+  border-top: 1px solid #e0e0e0;
+}
+
+footer > div {
+  padding: 24px 40px;
+}
+
+.logo-in-footer {
+  display: block;
+}
+
+.logo-in-footer,
+.text-in-footer {
+  margin-bottom: 32px;
+}
+
+.phone-in-footer {
+  margin-bottom: 24px;
+}
+
+.socials {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 16px;
+}
+
+.nav-in-footer h3 {
+  font-size: 18px;
+  line-height: 28px;
+  font-weight: 400;
+  margin-bottom: 16px;
+}
+.nav-in-footer ul {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.nav-in-footer a {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.categories {
+  margin-bottom: 24px;
+}
+
+.subscribe {
+  padding-bottom: 66px;
+}
+
+.subscribe h3 {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 28px;
+  margin-bottom: 16px;
+}
+
+.subscribe p {
+  margin-bottom: 16px;
+}
+
+.subscribe-form {
+  display: flex;
+}
+
+.subscribe-form input {
+  padding: 12px 16px;
+  font-size: 14px;
+  line-height: 24px;
+  border: 1px solid #e0e0e0;
+  border-right: none;
+  width: 100%;
+}
+
+.subscribe-form input::placeholder {
+  color: #bdbdbd;
+}
+
+.subscribe-form button {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 12px 24px;
+  background-color: #4788f5;
+  color: #fff;
+  text-transform: uppercase;
 }
